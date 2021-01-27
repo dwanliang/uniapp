@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "wyb-table": "/components/wyb-table/wyb-table",
+    "mytable": "/components/mytable/mytable"
+  }
+}

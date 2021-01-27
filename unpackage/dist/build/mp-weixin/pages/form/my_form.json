@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "表单中心",
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "long-press": "/components/longPress"
+  }
+}

@@ -1,0 +1,1 @@
+<block wx:if="{{tableData.length>0}}"><view><wyb-table class="tables vue-ref" vue-id="2dac98f3-1" headers="{{tableHead}}" contents="{{tableData}}" height="600rpx" data-ref="table" bind:__l="__l"></wyb-table><view><view data-event-opts="{{[['tap',[['daochu',['$event']]]]]}}" class="daochu" bindtap="__e">导出</view></view></view></block>

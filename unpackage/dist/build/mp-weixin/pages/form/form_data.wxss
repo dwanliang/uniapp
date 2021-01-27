@@ -1,0 +1,1 @@
+.daochu{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;align-items:center;height:100rpx;background-color:#00f;color:#fff;cursor:pointer}.daochu_url{color:#0ff;padding-right:30rpx}

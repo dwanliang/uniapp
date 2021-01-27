@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "表单添加",
+  "usingComponents": {
+    "test-com": "/components/test_com",
+    "address-picker": "/components/address/AddressPicker"
+  }
+}

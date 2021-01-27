@@ -1,0 +1,67 @@
+
+.time-red{
+	color: red!important;
+}
+.cont-1{
+	background-color: #EFF5FB;
+	box-shadow: #C0C0C0 0rpx 0rpx 25rpx;
+}
+.notice{
+	color: white;
+	padding: 10rpx 15rpx;
+	background-color: #333333;
+	font-size: 27rpx;
+}
+.content{
+	/* height: 1000px; */
+}
+.cont-task{
+	background-color: white ;
+	box-shadow:#ccc 0rpx 5rpx 0rpx; 
+	padding:25rpx 25rpx 0 25rpx;
+	font-size: 32rpx;
+}
+.ras-actile{
+	border-bottom: 4rpx #0404B4 solid;
+}
+.cont-task text{
+	text-align: center;
+	padding: 0 15rpx;
+	margin-bottom: 25rpx;
+	color: #555555
+}
+.task-con{
+	margin:20rpx;
+	padding-bottom: 15rpx;
+	background-color: white;
+	border-radius: 10rpx;
+	box-shadow: #999999 0rpx 0rpx 15rpx;
+}
+.task-lae{
+	/* margin-bottom: 15rpx; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack:justify;
+	-webkit-justify-content:space-between;
+	        justify-content:space-between
+}
+.task-1 text{
+	font-size: 22rpx;
+	padding: 0 18rpx;
+	color: #555555;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+.task-1 label{
+	font-size: 25rpx;
+	font-weight: 700;
+	padding: 18rpx;
+}
+.task-1 label:nth-child(2){
+	color: #999999;
+}
+

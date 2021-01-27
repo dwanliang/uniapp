@@ -1,0 +1,279 @@
+{
+	"easycom": {
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "任务大厅",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/work/index",
+			"style": {
+				"navigationBarTitleText": "工具台"
+			}
+		},
+		{
+			"path": "pages/mail/index",
+			"style": {
+				"navigationBarTitleText": "通讯录",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/ge/index",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/user/user_friend",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/user/user_new",
+			"style": {
+				"navigationBarTitleText": "新消息"
+			}
+		},
+		{
+			"path": "pages/task_con/index",
+			"style": {
+				"navigationBarTitleText": "任务详情"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		},
+		{
+			"path": "pages/task_add/index",
+			"style": {
+				"navigationBarTitleText": "添加任务"
+			}
+		},
+		{
+			"path": "pages/daka/daka_list",
+			"style": {
+				"navigationBarTitleText": "打卡列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/daka/daka_add",
+			"style": {
+				"navigationBarTitleText": "添加打卡"
+			}
+		},
+		{
+			"path": "pages/course/course_list",
+			"style": {
+				"navigationBarTitleText": "课表"
+			}
+		},
+		{
+			"path": "pages/course/course_add",
+			"style": {
+				"navigationBarTitleText": "添加课程"
+			}
+		},
+		{
+			"path": "pages/course/course_edit",
+			"style": {
+				"navigationBarTitleText": "编辑课程"
+			}
+		},
+		{
+			"path": "pages/form/form_list",
+			"style": {
+				"navigationBarTitleText": "信息收集",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/form/form_con",
+			"style": {
+				"navigationBarTitleText": "表单内容"
+			}
+		},
+		{
+			"path": "pages/form/form_add",
+			"style": {
+				"navigationBarTitleText": "表单添加"
+			}
+		},
+		{
+			"path": "pages/form/my_form",
+			"style": {
+				"navigationBarTitleText": "表单中心"
+			}
+		},
+		{
+			"path": "pages/form/form_data"
+		},
+		{
+			"path": "pages/team/team_list",
+			"style": {
+				"navigationBarTitleText": "我的团队"
+			}
+		},
+		{
+			"path": "pages/team/team_add",
+			"style": {
+				"navigationBarTitleText": "添加团队"
+			}
+		},
+		{
+			"path": "pages/team/team_con",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/team/msg_add",
+			"style": {
+				"navigationBarTitleText": "添加公告"
+			}
+		},
+		{
+			"path": "pages/team/team_new",
+			"style": {
+				"navigationBarTitleText": "新消息"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/login/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/phone-login/index",
+			"style": {
+				"navigationBarTitleText": "手机登录"
+			}
+		},
+		{
+			"path": "pages/login/forget",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		},
+		{
+			"path": "pages/note/note_list",
+			"style": {
+				"navigationBarTitleText": "备忘录",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/chatroom/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/note/note_add",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/user/my_friend",
+			"style": {
+				"navigationBarTitleText": "我的朋友"
+			}
+		},
+		{
+			"path": "pages/note/note_con",
+			"style": {
+				"navigationBarTitleText": ""
+				// "app-plus": {
+				// 	"bounce": "none",
+				// 	"titleNView": {
+				// 		"buttons": [{
+				// 			"text": "\ue472",// unicode 字符表示必须 '\u' 开头，如 "\ue123"（注意不能写成"\e123"）
+				// 			"fontSrc": "/static/uni.ttf",
+				// 			"fontSize": "26px",
+				// 			"float":"right",
+				// 			"color": "belak",
+				// 			"width":"50px"
+				// 		}]
+				// 	}
+				// }
+			}
+		},
+		{
+			"path": "pages/search/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"searchInput":{
+							"align": "center",
+							"placeholder": "搜索",
+							"borderRadius":"50rpx",
+							"backgroundColor": "#fff"
+							// "disabled": true //disable时点击输入框不置焦，可以跳到新页面搜索
+						}
+					}
+				}
+
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#333333",
+		"selectedColor":"deepskyblue",
+		"backgroundColor":"white",
+		"borderStyle":"black",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"./static/tabbar/index.png",
+				"selectedIconPath":"static/tabbar/indexed.png"
+			},
+			{
+				"pagePath":"pages/work/index",
+				"text":"工具台",
+				"iconPath":"static/tabbar/work.png",
+				"selectedIconPath":"static/tabbar/worked.png"
+			},
+			{
+				"pagePath":"pages/mail/index",
+				"text":"通讯录",
+				"iconPath":"static/tabbar/mail.png",
+				"selectedIconPath":"static/tabbar/mailed.png"
+			},
+			{ 
+				"pagePath":"pages/ge/index",
+				"text":"我的",
+				"iconPath":"static/tabbar/my.png",
+				"selectedIconPath":"static/tabbar/myed.png"
+			}
+		]
+	}
+}

@@ -1,0 +1,1 @@
+page{background-color:rgba(236,232,232,.47)}.user-box{background-color:#fff}.jia_friend{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;padding:30rpx;background-color:#fff;color:#9bf}

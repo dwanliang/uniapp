@@ -1,0 +1,77 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/work/index",
+    "pages/mail/index",
+    "pages/ge/index",
+    "pages/user/user_friend",
+    "pages/task_con/index",
+    "pages/user/index",
+    "pages/task_add/index",
+    "pages/daka/daka_list",
+    "pages/daka/daka_add",
+    "pages/course/course_list",
+    "pages/course/course_add",
+    "pages/course/course_edit",
+    "pages/form/form_list",
+    "pages/form/form_con",
+    "pages/form/form_add",
+    "pages/form/my_form",
+    "pages/form/form_data",
+    "pages/team/team_list",
+    "pages/team/team_add",
+    "pages/team/team_con",
+    "pages/team/msg_add",
+    "pages/team/team_new",
+    "pages/login/login",
+    "pages/login/reg",
+    "pages/phone-login/index",
+    "pages/login/forget",
+    "pages/note/note_list",
+    "pages/chatroom/index",
+    "pages/note/note_add",
+    "pages/user/my_friend",
+    "pages/note/note_con",
+    "pages/search/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "deepskyblue",
+    "backgroundColor": "white",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./static/tabbar/index.png",
+        "selectedIconPath": "static/tabbar/indexed.png"
+      },
+      {
+        "pagePath": "pages/work/index",
+        "text": "工具台",
+        "iconPath": "static/tabbar/work.png",
+        "selectedIconPath": "static/tabbar/worked.png"
+      },
+      {
+        "pagePath": "pages/mail/index",
+        "text": "通讯录",
+        "iconPath": "static/tabbar/mail.png",
+        "selectedIconPath": "static/tabbar/mailed.png"
+      },
+      {
+        "pagePath": "pages/ge/index",
+        "text": "我的",
+        "iconPath": "static/tabbar/my.png",
+        "selectedIconPath": "static/tabbar/myed.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

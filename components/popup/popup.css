@@ -1,0 +1,126 @@
+/* components/popup/popup.wxss */
+.prompt-box {
+  position: absolute;
+  left: 0;
+  top: -140rpx;
+  width: 100%;
+  height: 120%;
+  z-index: 11;
+  background: rgba(209, 209, 209, 0.3);
+  font-size: 30rpx;
+}
+
+.container{
+    padding: 10rpx;
+    display: flex;
+    background-color: #e8e8e8;
+}
+.container .pic image{
+    width: 140rpx;
+    height: 140rpx;
+    margin-right: 16rpx;
+    margin-left: 10rpx;
+}
+.container .content{
+    line-height: 50rpx;
+    text-align: left;
+    width: 70%;
+}
+.container .content .title{
+    font-size: 28rpx;
+    margin: 0 10rpx 20rpx 0;
+    color: #585858;
+    height: 78rpx;
+    line-height: 42rpx;
+    overflow: hidden; //一定要写
+    text-overflow: ellipsis; //超出省略号
+    display: -webkit-box; //一定要写
+    -webkit-line-clamp: 2; //控制行数
+    -webkit-box-orient: vertical;
+}
+.container .content .com-price{
+    color: #585858;
+    font-weight: 600;
+}
+.prompt-text text{
+    font-size: 32rpx;
+}
+
+
+
+.prompt-content {
+  position: absolute;
+  display: block;
+  left: 50%;
+  top: 600rpx;
+  width: 80%;
+  max-width: 600rpx;
+  border: 2rpx solid #ccc;
+  border-radius: 10rpx;
+  box-sizing: bordre-box;
+  transform: translate(-50%, -50%); 
+  overflow: hidden;
+  background: #fff;
+  padding: 20rpx;
+}
+
+.prompt-title {
+  width: 100%;
+  padding: 4rpx 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 30rpx;
+  color: #000000;
+  margin-bottom: 80rpx;
+  /* border-bottom: 2rpx solid gray; */
+}
+.prompt-input{
+  margin: auto;
+  margin-top: 10rpx;
+  margin-bottom: 70rpx;
+  padding: 4rpx 0;
+  /* width: 60%; */
+  height:30rpx;
+  border: 1px solid #ccc;
+  border-radius: 10rpx;
+}
+.prompt-btn-group{
+  display: flex;
+  margin-top: 80rpx;
+}
+
+.btn-item {
+  width: 25%;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 30rpx;
+  background-color: white;
+  justify-content: space-around;
+  margin-bottom: 30rpx;
+}
+.prompt-certain-btn{
+  color: white;
+  background-color: #00BFFF;
+}
+.prompt-cancel-btn{
+  border: 1px solid #00BFFF;
+}
+.contentFontColor {
+  color: #868686;
+}
+.prompt-text{
+    margin-top:15rpx;
+    font-size:38rpx;
+}
+
+.prompt-input{
+  margin: auto;
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
+  padding: 4rpx 20rpx;
+  /* width: 100%; */
+  height:30rpx;
+  border: 1px solid #ccc;
+  border-radius: 10rpx;
+}

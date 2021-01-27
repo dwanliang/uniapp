@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "手机登录",
+  "usingComponents": {
+    "bm-phone-login": "/components/bm-phone-login/bm-phone-login"
+  }
+}

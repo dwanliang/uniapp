@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "teammsg": "/pages/team/team_msg",
+    "teamtask": "/pages/team/team_task"
+  }
+}

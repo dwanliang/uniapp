@@ -1,0 +1,1 @@
+.lineLeft{width:160rpx;padding:0 20rpx;font-size:28rpx;position:relative;top:6rpx;font-weight:800}.line{border-bottom:2rpx solid hsla(0,0%,80%,.8);padding:24rpx;padding-bottom:20rpx;display:-webkit-box;display:-webkit-flex;display:flex}.lineRight{width:100%;font-size:30rpx}.container{padding:0}.ql-container{margin:0}

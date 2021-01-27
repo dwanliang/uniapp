@@ -1,0 +1,11 @@
+.banner,
+.new_list{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;align-items:center}.banner label,
+.new_list label{display:-webkit-box;display:-webkit-flex;display:flex;padding:10rpx 0}.banner label:nth-child(1),
+.new_list label:nth-child(1){padding-left:10rpx;width:35%;-webkit-box-pack:left;-webkit-justify-content:left;justify-content:left;border-right:2rpx solid #ccc}.banner label:nth-child(2),
+.new_list label:nth-child(2){width:35%;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;border-right:2rpx solid #ccc}.banner label:nth-child(3),
+.new_list label:nth-child(3){width:30%;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center}.banner .operation,
+.new_list .operation{width:30%;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center}.banner .operation text,
+.new_list .operation text{padding:10rpx;-webkit-border-radius:15rpx;border-radius:15rpx;color:#fff;margin:0 10rpx}.banner .operation text:nth-child(1),
+.new_list .operation text:nth-child(1){background-color:#c8c7cc}.banner .operation text:nth-child(2),
+.new_list .operation text:nth-child(2){background-color:#9df}.banner .operation view,
+.new_list .operation view{color:#ccc}.new_list{padding-top:10rpx}.banner label:nth-child(1){background-color:#e5f7ff}.banner label:nth-child(2){background-color:#fcc}.banner label:nth-child(3){background-color:#e5ccff}

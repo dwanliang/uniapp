@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "添加打卡",
+  "usingComponents": {
+    "test-com": "/components/test_com",
+    "jin-edit": "/components/jin-edit/jin-edit"
+  }
+}

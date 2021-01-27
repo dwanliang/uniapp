@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "编辑课程",
+  "usingComponents": {
+    "test-com": "/components/test_com"
+  }
+}
