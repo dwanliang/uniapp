@@ -25,7 +25,7 @@
 <style>
 	/*每个页面公共css */
 	page{
-		/* height: 100%; */
+		height: 100%;
 	}
 	.all-add{
 		position: fixed;
