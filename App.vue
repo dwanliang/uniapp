@@ -6,6 +6,7 @@
 		},
 		onLaunch: function() {
 			console.log('App Launch')
+			console.log('ss')
 			apps.islogin();
 		},
 		onShow: function() {
