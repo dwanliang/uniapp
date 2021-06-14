@@ -6,7 +6,7 @@
 		},
 		onLaunch: function() {
 			console.log('App Launch')
-			console.log('ss')
+			console.log(11)
 			apps.islogin();
 		},
 		onShow: function() {
@@ -24,9 +24,9 @@
 </style>
 <style>
 	/*每个页面公共css */
-	/*page{
-		height: 100%;
-	} */
+	page{
+		/* height: 100%; */
+	}
 	.all-add{
 		position: fixed;
 		bottom: 110rpx;
